@@ -107,3 +107,41 @@ p.txt4 {
     opacity: 1;
   }
 }
+
+button.btn1 {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: none;
+  border: 0.0625rem white solid;
+  color: white;
+  border-radius: 6.25rem;
+  padding-left: 2%;
+  padding-right: 2%;
+  font-size: 3vh;
+  font-weight: 1;
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+button.btn1:hover {
+  color: rgb(133, 133, 133);
+  border: 0.0625rem rgb(133, 133, 133) solid;
+}
+
+hr.trenn2 {
+  width: 50%;
+  border: none;
+  height: 0.125rem;
+  background: repeating-linear-gradient(
+    to right,
+    white 0px,
+    white 5px,
+    transparent 5px,
+    transparent 10px
+  );
+}
