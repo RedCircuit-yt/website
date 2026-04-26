@@ -145,3 +145,37 @@ hr.trenn2 {
     transparent 10px
   );
 }
+
+h1.txt5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 200;
+  font-size: 3.5vh;
+  text-align: center;
+}
+
+.video {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  height: 20vw;
+  width: calc(20vw * 16 / 9);
+
+  box-shadow: 0 0 35px black;
+}
+
+@media (max-width: 900px) {
+  .video {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50vw;
+    width: calc(50vw * 16 / 9);
+  }
+}
